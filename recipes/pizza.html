@@ -4,143 +4,176 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TOP Recipes | Pizza</title>
+    <title>Odin Recipes | Pizza</title>
     <style>
         /* Set font family and size */
         body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        font-size: 16px;
-        line-height: 1.5;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: #1e1e1e;
         }
-
+        
         /* Set heading styles */
-        h1, h2, h3, h4, h5, h6 {
-        font-weight: 600;
-        margin-top: 2em;
-        margin-bottom: 0.5em;
-        }
-
-        h1 {
-        font-size: 2em;
-        }
-
-        h2 {
-        font-size: 1.5em;
-        }
-
-        h3 {
-        font-size: 1.25em;
-        }
-
-        h4 {
-        font-size: 1.125em;
-        }
-
-        h5 {
-        font-size: 1em;
-        color: #178aff;
-        }
-
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
         h6 {
-        font-size: 1em;
-        font-weight: 400;
+            font-weight: 600;
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+            color: #d4d4d4;
         }
-
+        
+        h1 {
+            font-size: 2em;
+        }
+        
+        h2 {
+            font-size: 1.5em;
+        }
+        
+        h3 {
+            font-size: 1.25em;
+        }
+        
+        h4 {
+            font-size: 1.125em;
+        }
+        
+        h5 {
+            font-size: 1em;
+            color: #178aff;
+        }
+        
+        h6 {
+            font-size: 1em;
+            font-weight: 400;
+        }
+        
         /* Set paragraph styles */
         p {
-        margin-top: 0;
-        margin-bottom: 1em;
+            margin-top: 0;
+            margin-bottom: 1em;
+            color: #d4d4d4;
         }
-
+        
         /* Set code styles */
         pre {
-        background-color: #f6f8fa;
-        border-radius: 3px;
-        font-size: 85%;
-        line-height: 1.45;
-        overflow: auto;
-        padding: 16px;
+            background-color: #f6f8fa;
+            border-radius: 3px;
+            font-size: 85%;
+            line-height: 1.45;
+            overflow: auto;
+            padding: 16px;
         }
-
+        
         pre code {
-        display: block;
+            display: block;
         }
-
+        
         code {
-        background-color: #f6f8fa;
-        border-radius: 3px;
-        font-size: 85%;
-        padding: 0.2em 0.4em;
+            background-color: #f6f8fa;
+            border-radius: 3px;
+            font-size: 85%;
+            padding: 0.2em 0.4em;
         }
-
+        
         /* Set blockquote styles */
         blockquote {
-        border-left: 4px solid #dfe2e5;
-        color: #6a737d;
-        margin: 0;
-        padding: 0 15px;
+            border-left: 4px solid #dfe2e5;
+            color: #6a737d;
+            margin: 0;
+            padding: 0 15px;
         }
-
+        
         /* Set link styles */
         a {
-        background-color: transparent;
-        color: #0366d6;
-        text-decoration: none;
-        transition: background-color 0.2s ease-in-out;
+            background-color: transparent;
+            color: #0366d6;
+            text-decoration: none;
+            transition: background-color 0.2s ease-in-out;
         }
-
+        
         a:hover {
-        background-color: #0366d6;
-        color: #fff;
+            background-color: #0366d6;
+            color: #fff;
         }
-
+        
         /* Set list styles */
-        ul, ol {
-        margin-top: 0;
-        margin-bottom: 1em;
+        ul,
+        ol {
+            margin-top: 0;
+            margin-bottom: 1em;
+            color: #d4d4d4;
         }
-
-        li > ul,
-        li > ol {
-        margin-top: 0;
-        margin-bottom: 0;
+        
+        li>ul,
+        li>ol {
+            margin-top: 0;
+            margin-bottom: 0;
         }
-
+        
         li {
-        margin-bottom: 0.25em;
+            margin-bottom: 0.25em;
         }
-
+        
         li p {
-        margin: 0;
+            margin: 0;
         }
-
+        
         /* Set table styles */
         table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        margin-bottom: 16px;
-        width: 100%;
+            border-collapse: collapse;
+            border-spacing: 0;
+            margin-bottom: 16px;
+            width: 100%;
         }
-
+        
         th {
-        font-weight: 600;
+            font-weight: 600;
         }
-
-        th, td {
-        border: 1px solid #dfe2e5;
-        padding: 6px 13px;
-        text-align: left;
+        
+        th,
+        td {
+            border: 1px solid #dfe2e5;
+            padding: 6px 13px;
+            text-align: left;
         }
-
+        
         tr:nth-child(2n) {
-        background-color: #f6f8fa;
+            background-color: #f6f8fa;
         }
-   </style>
+    </style>
 </head>
 <body>
-    <h1>Pizza Recipe</h1>
-    <ul>
-        <li>Start with the pizza dough</li>
-    </ul>
+    <h1>Odin Recipes | Pizza</h1>
+    <img src="../img/pizza.png" height="250" alt="Pizza">
+    <h4>Delicious tomato with smoked sausage pizza</h4>
+    <p>
+        Here are the ingredients and the steps to make that pizza:
+        <h5>Ingredients</h5>
+        <ul>
+            <li>Chimichurry</li>
+            <li>One tomatoe</li>
+            <li>Tomato Sauce</li>
+            <li>Smoked Sausage</li>
+            <li>Cheese</li>
+            <li>Pizza Dough</li>
+        </ul>
+        <h5>Steps</h5>
+        <ol>
+            <li>Spread the tomato sauce on top of the pizza dough</li>
+            <li>CUt the tomato in thin slices</li>
+            <li>Start to fry the smoked sausage</li>
+            <li>Put cheese on top of the tomato sauce</li>
+            <li>Start putting the tomato slices on top of everything</li>
+            <li>Start putting the fried smoked sausage on top of it</li>
+            <li>Put some chimichurry on top of the pizza</li>
+            <li>Put it inside the oven for about 20 minutes</li>
+        </ol>
+    </p>
 </body>
 </html>
