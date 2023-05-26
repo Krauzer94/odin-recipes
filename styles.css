@@ -14,6 +14,18 @@ body {
     margin-bottom: 8px;
     font-size: 16px;
     padding: 8px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    background: #808080;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: white;
+    margin-bottom: 8px;
+    font-size: 16px;
+    padding: 8px;
 }
 
 /* Set heading styles */
