@@ -20,7 +20,7 @@ body {
 
 .content {
     background: #606060;
-    margin: 10px;
+    margin: 25%;
     border-radius: 5px;
     border-color: white;
     margin-bottom: 8px;
@@ -29,15 +29,8 @@ body {
 }
 
 /* Set heading styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
-    margin-top: 2em;
-    margin-bottom: 0.5em;
     color: #d4d4d4;
 }
 
@@ -47,24 +40,7 @@ h1 {
 
 h2 {
     font-size: 1.5em;
-}
-
-h3 {
-    font-size: 1.25em;
-}
-
-h4 {
-    font-size: 1.125em;
-}
-
-h5 {
-    font-size: 1em;
     color: #178aff;
-}
-
-h6 {
-    font-size: 1em;
-    font-weight: 400;
 }
 
 /* Set paragraph styles */
@@ -72,35 +48,6 @@ p {
     margin-top: 0;
     margin-bottom: 1em;
     color: #d4d4d4;
-}
-
-/* Set code styles */
-pre {
-    background-color: #f6f8fa;
-    border-radius: 3px;
-    font-size: 85%;
-    line-height: 1.45;
-    overflow: auto;
-    padding: 16px;
-}
-
-pre code {
-    display: block;
-}
-
-code {
-    background-color: #f6f8fa;
-    border-radius: 3px;
-    font-size: 85%;
-    padding: 0.2em 0.4em;
-}
-
-/* Set blockquote styles */
-blockquote {
-    border-left: 4px solid #dfe2e5;
-    color: #6a737d;
-    margin: 0;
-    padding: 0 15px;
 }
 
 /* Set link styles */
@@ -137,27 +84,4 @@ li {
 
 li p {
     margin: 0;
-}
-
-/* Set table styles */
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin-bottom: 16px;
-    width: 100%;
-}
-
-th {
-    font-weight: 600;
-}
-
-th,
-td {
-    border: 1px solid #dfe2e5;
-    padding: 6px 13px;
-    text-align: left;
-}
-
-tr:nth-child(2n) {
-    background-color: #f6f8fa;
 }
