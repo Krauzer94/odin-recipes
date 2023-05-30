@@ -31,6 +31,7 @@ body {
 img {
     height: 300px;
     width: 450px;
+    border-radius: 15px;
 }
 
 /* Set heading styles */
@@ -46,6 +47,7 @@ h1 {
 h2 {
     font-size: 1.5em;
     color: #178aff;
+    text-align: center;
 }
 
 /* Set paragraph styles */
