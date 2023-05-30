@@ -4,11 +4,11 @@ body {
     font-size: 16px;
     line-height: 1.5;
     background-color: #1e1e1e;
+    margin: 10% 5%;
 }
 
 .titles {
     background: #404040;
-    margin: 10%;
     border-radius: 5px;
     border-color: white;
     margin-bottom: 2px;
@@ -20,12 +20,12 @@ body {
 
 .content {
     background: #606060;
-    margin: 10%;
+    margin: 15%;
     border-radius: 5px;
     border-color: white;
     margin-bottom: 8px;
-    font-size: 16px;
-    padding: 8px;
+    font-size: 18px;
+    padding: 8px 8px;
 }
 
 /* Set heading styles */
@@ -67,21 +67,10 @@ a:hover {
 /* Set list styles */
 ul,
 ol {
-    margin-top: 0;
     margin-bottom: 1em;
     color: #d4d4d4;
 }
 
-li>ul,
-li>ol {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 li {
-    margin-bottom: 0.25em;
-}
-
-li p {
-    margin: 0;
+    padding-left: 5px;
 }
