@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
 }
 
 body {
@@ -29,7 +28,7 @@ body {
 }
 
 .footer h2 {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 /* Main section */
@@ -42,15 +41,9 @@ body {
     flex-direction: column;
 }
 
-.content-title {
+.content-title, .food-options {
     width: 100%;
-}
-
-/* Image resizing */
-img {
-    height: 300px;
-    width: 450px;
-    border-radius: 50%;
+    font-size: 24px;
 }
 
 button {
@@ -59,6 +52,26 @@ button {
     width: 200px;
     height: 200px;
     font-size: 85px;
+}
+
+/* Buttons for recipes */
+.food-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 105px;
+    padding: 72px 0px;
+}
+
+.food-label {
+    font-size: 18px;
+}
+
+/* Image resizing */
+img {
+    height: 300px;
+    width: 450px;
+    border-radius: 50%;
 }
 
 /* List styles */
