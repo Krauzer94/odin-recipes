@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    border: 1px solid red;
 }
 
 body {
@@ -69,18 +68,38 @@ button {
     font-size: 18px;
 }
 
-/* Image resizing */
-img {
-    height: 300px;
-    width: 450px;
-    border-radius: 50%;
+.back-btn {
+    font-size: 12px;
+    width: 25%;
+    height: 10vh;
+}
+
+/* Hero background */
+.hero-pizza {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pizza.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* List styles */
 ul, ol, li {
-    margin-bottom: 1em;
+    margin-top: 0px;
+    margin-bottom: 1.5em;
     color: #F2F2F2;
     padding-left: 6px;
+    font-size: 20px;
+    max-width: 75vw;
+}
+
+ul {
+    list-style: none;
 }
 
 /* General text */
@@ -89,6 +108,11 @@ p, h1, h2 {
     justify-content: center;
     text-align: center;
     padding: 24px 0px;
+}
+
+.recipe-titles {
+    font-size: 36px;
+    width: 100%;
 }
 
 a {
