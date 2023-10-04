@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    border: 1px solid red;
 }
 
 body {
@@ -61,6 +62,7 @@ button {
     justify-content: center;
     gap: 105px;
     padding: 72px 0px;
+    margin-top: -36px;
 }
 
 .food-label {
