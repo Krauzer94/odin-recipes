@@ -1,82 +1,82 @@
-/* Set font family and size */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
 body {
-    font-family: consolas, "Segoe UI";
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #1e1e1e;
-    margin: 10% 5%;
+    font-family: Cantarell, "Segoe UI";
+    background-color: #0d1117;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
-.titles {
-    background: #404040;
-    border-radius: 5px;
-    border-color: white;
-    margin-bottom: 2px;
-    font-size: 16px;
-    padding: 8px;
-    text-align: center;
-    text-transform: uppercase;
+/* Header and footer */
+.header, .footer {
+    font-family: monospace;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
 }
 
+.header h1, .footer h2 {
+    font-weight: normal;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
+/* Main section */
 .content {
-    background: #606060;
-    margin: 15%;
-    border-radius: 5px;
-    border-color: white;
-    margin-bottom: 8px;
-    font-size: 18px;
-    padding: 8px 8px;
+    background: #222831;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
+.content-title {
+    width: 100%;
+}
+
+/* Image resizing */
 img {
     height: 300px;
     width: 450px;
-    border-radius: 15px;
+    border-radius: 50%;
 }
 
-/* Set heading styles */
-h1,h2,h4 {
-    font-weight: 600;
-    color: #d4d4d4;
+button {
+    background-color: #393e46;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    font-size: 85px;
 }
 
-h1 {
-    font-size: 2em;
-}
-
-h2 {
-    font-size: 1.5em;
-    color: #178aff;
-    text-align: center;
-}
-
-/* Set paragraph styles */
-p {
+/* List styles */
+ul, ol, li {
     margin-bottom: 1em;
-    color: #d4d4d4;
+    color: #F2F2F2;
+    padding-left: 6px;
 }
 
-/* Set link styles */
+/* General text */
+p, h1, h2 {
+    color: #F2F2F2;
+    justify-content: center;
+    text-align: center;
+    padding: 24px 0px;
+}
+
 a {
-    background-color: transparent;
     color: #0366d6;
     text-decoration: none;
-    transition: background-color 0.2s ease-in-out;
-    font-weight: bold;
-}
-
-a:hover {
-    background-color: #0366d6;
-    color: #fff;
-}
-
-/* Set list styles */
-ul,
-ol {
-    margin-bottom: 1em;
-    color: #d4d4d4;
-}
-
-li {
-    padding-left: 5px;
 }
