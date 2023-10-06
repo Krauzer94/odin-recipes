@@ -74,7 +74,9 @@ button {
     height: 10vh;
 }
 
-/* Hero background */
+/* Hero backgrounds */
+
+/* Pizza hero */
 .hero-pizza {
     width: 100%;
     height: 50vh;
@@ -82,6 +84,34 @@ button {
     justify-content: center;
     align-items: center;
     background-image: url(images/pizza.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Lasagna hero */
+.hero-lasagna {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/lasagna.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Burguer hero */
+.hero-burguer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/burguer.png);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
