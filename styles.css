@@ -46,12 +46,18 @@ body {
     font-size: 24px;
 }
 
+/* Button styling */
 button {
     background-color: #393e46;
     border-radius: 20px;
     width: 200px;
     height: 200px;
     font-size: 85px;
+}
+
+/* Fix MS-Windows emoji position */
+.emoji-btn {
+    margin-top: -18px;
 }
 
 /* Buttons for recipes */
