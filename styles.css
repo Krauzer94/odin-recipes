@@ -57,7 +57,7 @@ button {
 
 /* Fix MS-Windows emoji position */
 .emoji-btn {
-    margin-top: -18px;
+    margin-top: -8px;
 }
 
 /* Buttons for recipes */
